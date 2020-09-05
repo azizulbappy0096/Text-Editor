@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.14.0-web/fontawesome-free-5.14.0-web/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title> Text Editor </title>
+</head>
+<body>
+    <div class="container">
+        <div class="row style_format">
+            <div class="style_text" id="italic"> <i class="fas fa-italic"></i> <em>Italic</em> </div>
+            <div class="style_text"> Underline </div>
+            <div class="style_text"> <i class="fas fa-align-left"></i> </div> 
+            <div class="style_text"> <i class="fas fa-align-center"></i> </div> 
+            <div class="style_text"> <i class="fas fa-align-right"></i> </div> 
+        </div>
+
+        <div class="row text_box">
+            <div class="col">
+                <h3 class="display-6"> Type Here </h3>
+                <textarea name="text_editor" id="text_area" cols="30" rows="10"></textarea>
+            </div>
+            <div class="col">
+                <h3 class="display-6"> Formatted text </h3>
+                <div id="formatted_area"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

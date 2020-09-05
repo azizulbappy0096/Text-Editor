@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.style_format {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.style_text {
+    border:1px solid rgb(2, 2, 2, 0.01);
+    padding: 1em;
+    cursor: pointer;
+}
+
+.text_box {
+
+}
+
+h3 {
+    border: 1px solid rgb(20, 20, 20, 0.3);
+    padding: 0rem 1em;
+}
+
+.col:first-child {
+    margin-right: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
