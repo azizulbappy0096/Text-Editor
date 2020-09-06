@@ -12,7 +12,7 @@
     <title> Text Editor </title>
 </head>
 <body>
-    <div class="container">
+    <div class="container text-center">
         <div class="row">
             <div class="col">
                 <h2 class="text-center"> Text Editor </h2> 
@@ -20,9 +20,9 @@
         </div>
         <div class="row ">
             <div class="col style_format">
-            <button type="button" class="style_text" id="italic"> <i class="fas fa-italic"></i> <em>Italic</em> </button>
+            <button type="button" class="style_text" id="italic"> <i class="fas fa-italic"></i></button>
             <button type="button" class="style_text" id="underline"> Underline </button>
-            <button type="button" class="style_text" id="bold"><i class="fas fa-bold"></i> Bold </button>
+            <button type="button" class="style_text" id="bold"><i class="fas fa-bold"></i></button>
             <button type="button" class="style_text" id="left"> <i class="fas fa-align-left"></i> </button> 
             <button type="button" class="style_text" id="center"> <i class="fas fa-align-center"></i> </button> 
             <button type="button" class="style_text" id="right"> <i class="fas fa-align-right"></i> </button>
@@ -31,11 +31,13 @@
 
         <div class="row text_box">
             <div class="col">
-                <label for="text_area" class="h5"> Type here </label> <br>
-                <textarea name="text_editor" id="text_area" cols="40" rows="20"></textarea>
+                <div class="form-group">
+                    <label for="text_area" class="h5"> Type here </label> <br>
+                <textarea class="form-control" name="text_editor" id="text_area" cols="" rows="10"></textarea>
+                </div>
             </div>
             <div class="col">
-                <h5> Formatted Text </h5>
+                <label for="text_area" class="h5"> Formatted Text</label> 
                 <div id="formatted_area">
 
                 </div>
