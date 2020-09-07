@@ -41,6 +41,7 @@ h2 {
     line-break: anywhere;
     border: 1px solid rgb(165, 162, 162, .5);
     background-color: rgb(189, 186, 186, .1);
+    padding: 10px;
 }
 
 

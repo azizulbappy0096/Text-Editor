@@ -56,7 +56,7 @@ function makeTextBold() {
 
 
 
-text_area.addEventListener('keyup', updateText);
+text_area.addEventListener('input', updateText);
 document.getElementById('italic').addEventListener('click',  toggleItalic);
 document.getElementById('right').addEventListener('click',  toggleTextRight);
 document.getElementById('left').addEventListener('click',  toggleTextLeft);
